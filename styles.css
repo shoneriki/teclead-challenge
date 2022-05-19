@@ -71,6 +71,7 @@ li:last-child {
 
 .B {
   /* display: none; */
+  max-height: 280px;
 }
 .right-bottom {
   padding: 16px;
