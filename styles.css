@@ -37,13 +37,13 @@ body {
   text-transform: uppercase;
   }
 
-ul {
+.stations {
   background-color: var(--li-bg-color);
   padding: 8px;
   color: var(--li-text-color);
 }
 
-li {
+.stations > li {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
