@@ -18,25 +18,24 @@ body {
 
 .A{
   background-color: black;
-  width: 200px;
+  width: 220px;
   margin: 16px 0;
   padding: 16px;
 }
 
-.container {
-  border-radius: 16px;
-}
 
 .container > .top {
-  background-color: var(--top-bg-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
+  background-color: var(--top-bg-color);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  }
 
- ul {
+ul {
   background-color: var(--li-bg-color);
-  padding: 0;
+  padding: 8px;
   color: var(--li-text-color);
 }
 
@@ -45,10 +44,17 @@ li {
   display: flex;
   justify-content: space-between;
   margin: 0;
+  padding: 8px 0px;
   border-bottom: 1px solid var(--border-color);
 }
+
+li:last-child {
+  border-bottom: none;
+}
+
 .bottom {
   padding: 24px;
   background-color: #22222C;
   border-radius: 0px 0px 16px 16px;
+  border-top: 1px solid var(--border-color);
 }
