@@ -55,6 +55,9 @@ body {
   padding: 8px 0px;
   border-bottom: 1px solid var(--border-color);
 }
+li > p {
+  cursor: pointer;
+}
 li:last-child {
   border-bottom: none;border-radius: 16px;
 }
