@@ -38,7 +38,6 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: var(--top-bgc);
-  /* border-radius: 10px 10px 0px 0px; */
   padding: 16px 8px;
   text-transform: uppercase;
   }
@@ -64,24 +63,21 @@ li > p {
 }
 li:last-child {
   border-bottom: none;
-  /* border-radius: 16px; */
 }
 
 .left-bottom {
   padding: 24px;
   background-color: var(--bottom-bgc);
-  /* border-radius: 0px 0px 16px 16px; */
   border-top: 1px solid var(--border-color);
 }
 
 .B {
-  /* display: none; */
+  display: none;
   max-height: 280px;
 }
 .right-bottom {
   padding: 16px;
   background-color: var(--bottom-bgc);
-  /* border-radius: 0px 0px 16px 16px; */
   border-top: 1px solid var(--border-color);
   text-align: center;
 }
